@@ -12,7 +12,7 @@ import howitWorks2 from "../assets/howitWorks2.png";
 import aboutUs1 from "../assets/aboutUs1.png";
 import aboutUs2 from "../assets/aboutUs2.png";
 import leafImage from "../assets/leafImage.png";
-import GreenleafImage from "../assets/GreenleafImage.png";
+import GreenleafImage from "../assets/greenleafImage.png";
 import howitworksBg from "../assets/howitworksBg.png";
 import aboutBG from "../assets/aboutBG.png";
 import heroBG from "../assets/heroBG.png";
@@ -20,7 +20,6 @@ import playstore from "../assets/playstore.png";
 import appstore from "../assets/appstore.png";
 import logo from "../assets/logo.png";
 import logo2 from "../assets/logo2.png";
-
 import icon1 from "../assets/icon1.png";
 import icon2 from "../assets/icon2.png";
 import icon3 from "../assets/icon3.png";
@@ -33,7 +32,6 @@ import icon3white from "../assets/icon3white.png";
 import icon4white from "../assets/icon4white.png";
 import icon5white from "../assets/icon5white.png";
 import icon6white from "../assets/icon6white.png";
-
 import howitWorks3 from "../assets/howitWorks3.png";
 import howitWorks4 from "../assets/howitWorks4.png";
 
