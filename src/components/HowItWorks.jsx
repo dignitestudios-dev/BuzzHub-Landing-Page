@@ -23,7 +23,7 @@ const HowItWorks = () => {
       ];
 
   return (
-    <section className="py-20 bg-white p-8">
+    <section className="py-20 bg-white p-8" id="howItWorks">
       <img src={GreenleafImage} alt="Green Leaf Decoration" className="w-16 h-auto mx-auto mb-4" />
       <div className="mb-12 text-center">
         <p className="text-green-600 font-normal">How It Works</p>

@@ -39,9 +39,9 @@ const HeroSection = () => {
         <div className="absolute inset-0 h-1/2"></div>
         <div className="absolute inset-0 top-1/2 h-1/2 bg-white"></div>
         <img
-          src={hero4}
+          src={hero}
           alt="Mobile App Mockup"
-          className="relative mx-auto translate-y-2 w-full max-w-xs md:max-w-xs lg:max-w-md z-10"
+          className="relative mx-auto translate-y-2  max-w-xs md:max-w-xs lg:max-w-md z-10"
         />
       </div>  
     </div>

@@ -19,6 +19,8 @@ import heroBG from "../assets/heroBG.png";
 import playstore from "../assets/playstore.png";
 import appstore from "../assets/appstore.png";
 import logo from "../assets/logo.png";
+import logo2 from "../assets/logo2.png";
+
 import icon1 from "../assets/icon1.png";
 import icon2 from "../assets/icon2.png";
 import icon3 from "../assets/icon3.png";
@@ -70,4 +72,5 @@ export {
     howitWorks3,
     howitWorks4,
     hero4,
+    logo2,
 };

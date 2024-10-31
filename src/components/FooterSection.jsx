@@ -1,21 +1,21 @@
 import React from 'react';
 import { FaFacebook, FaTwitter, FaLinkedin } from 'react-icons/fa';
 import { FiSend } from 'react-icons/fi';
-import { logo } from "../assets/export";
+import { logo2 } from "../assets/export";
 
 const Footer = () => {
     return (
-        <footer className="bg-[#2F3133] text-white py-10">
+        <footer className="bg-[#2F3133] text-white py-4 p-6">
             <div className="container mx-auto px-6 md:px-10 grid grid-cols-1 md:grid-cols-4 gap-8">
                 
-                <div className="flex flex-col items-center md:items-start space-y-4">
-                    <img src={logo} alt="Buzzhub Logo" className="h-12 w-12" />
+                <div className="flex flex-col items-center md:items-start">
+                    <img src={logo2} alt="Buzzhub logo2" className="w-32 h-32" />
                     <p className="text-sm text-center md:text-left">
                         Lorem Ipsum Dolor Sit Amet Consectetur. Elit Sit Risus Turpis Dolor Sagittis Amet Tortor. Sed At Turpis Integer Turpis Velit Trincidunt Sit Eros. Amet Accumsan Sed.
                     </p>
                 </div>
                 
-                <div className="text-center md:text-left space-y-2">
+                <div className="text-center md:text-left space-y-2 py-10">
                     <h3 className="text-lg font-semibold">Quick Links</h3>
                     <ul className="space-y-1">
                         <li><a href="#" className="hover:text-gray-400">Home</a></li>
@@ -27,14 +27,14 @@ const Footer = () => {
                     </ul>
                 </div>
                 
-                <div className="text-center md:text-left space-y-2">
+                <div className="text-center md:text-left space-y-2 py-10">
                     <h3 className="text-lg font-semibold">Contact</h3>
                     <p>5053 Kiehn Junctions, Corpus Christi 19197</p>
                     <p>1-774-770-2563 X587</p>
                     <p>rebecca21@yahoo.com</p>
                 </div>
                 
-                <div className="text-center md:text-left space-y-4">
+                <div className="text-center md:text-left space-y-4 py-10">
                     <h3 className="text-lg font-semibold">Get Latest Information</h3>
                     <p>Lorem Ipsum Dolor Sit Amet Consectetur Sit Amet Conse.</p>
                     <div className="relative">
