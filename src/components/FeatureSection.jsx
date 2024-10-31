@@ -1,7 +1,7 @@
 import React from 'react';
 import { featurebg, featureImage, GreenleafImage } from "../assets/export";
 
-const FeaturesSection = () => {
+const FeatureSection = () => {
   return (
     <section className="bg-white text-center">
       <div id="features">
@@ -13,7 +13,7 @@ const FeaturesSection = () => {
         <p className="text-green-600 font-medium uppercase">Features</p>
         <h2 className="text-3xl md:text-4xl font-bold mt-2">How Buzzhub Works</h2>
         <p className="text-gray-600 mt-4 max-w-2xl mx-auto">
-          Lorem Ipsum Dolor Sit Amet Consectetur. Justo Nisl Id Amet Suscipit Lorem Vestibulum Quam. Ut Nulla In Fringilla Erat. Faucibus A Ultrices Rhoncus Urna.
+          Lorem Ipsum Dolor Sit Amet Consectetur. Justo Nisl Id Amet Suscipits Lorem Vestibulum Quam. Ut Nulla In Fringilla Erat. Faucibus A Ultrices Rhoncus Urna.
         </p>
       </div>
 
@@ -110,4 +110,4 @@ const FeatureItem = ({ number, title, description, alignment }) => {
 
 
 
-export default FeaturesSection;
+export default FeatureSection;
