@@ -98,7 +98,7 @@
 
   const FeatureItem = ({ number, title, description, alignment }) => {
     return (
-      <div className={`flex flex-col items-${alignment === 'left' ? 'start' : 'end'} space-y-2`}>
+      <div className={`flex flex-col items-${alignment === 'right' ? 'start' : 'end'} space-y-2`}>
         <div className="flex items-center justify-center w-[70px] h-[70px] rounded-2xl bg-[#E6F4EC] text-[#1D7C42] font-normal text-[32px] mb-2">
           {number}
         </div>
