@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { logo } from "../assets/export"; // Ensure this points to your logo image
+import { logo } from "../assets/export"; 
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -12,13 +12,13 @@ const Navbar = () => {
     const section = document.getElementById(sectionId);
     if (section) {
       section.scrollIntoView({ behavior: 'smooth' });
-      setIsOpen(false); // Close the menu if it's open
+      setIsOpen(false); 
     }
   };
 
   return (
-<div className="relative bg-transparent text-white flex flex-col items-center pt-10">
-<nav className="flex justify-between items-center w-full max-w-screen-lg px-4 md:px-10 lg:px-20 text-sm">
+<div className="relative bg-transparent text-white flex flex-col items-center pt-2">
+<nav className="flex justify-between items-center w-full px-4 md:px-10 lg:px-36 text-sm">
         <div className="flex items-center">
           <img src={logo} alt="Logo" className="h-[93px] w-[93px]" />
         </div>
@@ -54,7 +54,6 @@ const Navbar = () => {
         </button>
       </nav>
 
-      {/* Mobile Menu */}
       {isOpen && (
         <div className="md:hidden bg-green-200 text-green-600 w-full py-4 px-4 ">
           <ul className="flex flex-col space-y-4 items-center justify-center uppercase">
