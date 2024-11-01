@@ -16,10 +16,10 @@ const HowItWorks = () => {
         { icon: icon2, iconWhite: icon2white, title: "Product Delivery", description: "Choose convenient delivery or pickup options tailored to you!" },
       ]
     : [
-      { icon: icon1, iconWhite: icon2white, title: "Login/Signup", description: " Access your vendor account and manage your listings and orders." },
+      { icon: icon1, iconWhite: icon1white, title: "Login/Signup", description: " Access your vendor account and manage your listings and orders." },
         { icon: icon5, iconWhite: icon5white, title: "Get Order & Dispatch", description: " Receive and manage incoming orders, track order status, and dispatch orders." },
         { icon: icon6, iconWhite: icon6white, title: "Manage Orders", description: "Lorem ipsum dolor sit amet consectetur Rhoncus diam ultrices at cursus ornare et." },
-        { icon: icon2, iconWhite: icon1white, title: "Add Product Listing", description: " Create detailed product listings with images, descriptions, prices, and availability." },
+        { icon: icon2, iconWhite: icon2white, title: "Add Product Listing", description: " Create detailed product listings with images, descriptions, prices, and availability." },
 
       ];
 
