@@ -54,7 +54,7 @@ const Testimonials = () => {
         <h2 className="text-[#1D7C42] font-semibold text-lg mb-2">Testimonials</h2>
         <h1 className="text-4xl font-semibold mb-4">What Our Customers Say</h1>
         <p className="text-gray-600">
-          Lorem Ipsum Dolor Sit Amet Consectetur. Justo Nisl Id Amet Suscipit Lorem Vestibulum Quam. Ut Nulla In Fringilla Erat. Faucibus A Ultrices Rhoncus Urna.
+        See what our customers have to say about their <br/> Buzzhub experience.
         </p>
       </div>
 

@@ -42,14 +42,14 @@ const Footer = () => {
                     <p>rebecca21@yahoo.com</p>
                 </div>
                 
-                <div className="text-center md:text-left space-y-4 py-10">
+                <div className="text-center md:text-left space-y-4 py-10 w-[284px] h-[50px]">
                     <h3 className="text-lg font-semibold">Get Latest Information</h3>
-                    <p>Lorem Ipsum Dolor Sit Amet Consectetur Sit Amet Conse.</p>
+                    <p>Subscribe now with your email</p>
                     <div className="relative">
                         <input 
                             type="email" 
                             placeholder="Enter Email" 
-                            className="w-full py-2 px-4 rounded-full focus:outline-none pr-12" 
+                            className="w-full py-2 px-4 rounded-full focus:outline-none pr-12 text-black" 
                         />
                         <button className="absolute right-1 top-1/2 transform -translate-y-1/2 bg-green-600 hover:bg-green-700 text-white p-2 rounded-full">
                             <FiSend className="h-5 w-5" />
