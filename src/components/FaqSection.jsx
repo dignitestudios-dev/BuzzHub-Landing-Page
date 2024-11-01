@@ -7,13 +7,13 @@ const FaqSection = () => {
 
   const faqs = [
     {
-      question: 'Lorem Ipsum Dolor Sit Amet Consectetur?',
-      answer: 'Lorem Ipsum Dolor Sit Amet Consectetur. Erim Eu Viverra Diam Volutpat Eu. Id Pharetra Sit Consectetur Eget Senectus Mi. Vel Pellentesque In Consectetur Blandit Integer Orci Neque Tellus. Lectus Eget Ornare Urna Adipiscing Eti Condimentum. Risus Vestibulum Viverra Ultrices Pulvinar Leo Purus Mi Volutpat Magnis. Non Et Pellentesque Dictumst Diam Facilisi Quisque Viverra. Ut Orci Pretium Id Non Morbi Viverra Odio. In Dictumst Lectus Ipsum Lorem Dictum Et In Nibh Urna. Mattis Elit Massa Odio Arcu. Sem Ultrices Tempus Hac Aliquet Eleifend Magna Bibendum Neque Laoreet. Ut Eget Aliquam Sem Neque Id Turpis Neque Blandit Tristique.'
+      question: 'What is Buzzhub?',
+      answer: 'Buzzhub is a cannabis delivery app that connects buyers with trusted dispensaries in your area.'
     },
-    { question: 'Lorem Ipsum Dolor Sit Amet Consectetur?', answer: 'Answer for second question goes here.' },
-    { question: 'Lorem Ipsum Dolor Sit Amet Consectetur?', answer: 'Answer for third question goes here.' },
-    { question: 'Lorem Ipsum Dolor Sit Amet Consectetur?', answer: 'Answer for fourth question goes here.' },
-    { question: 'Lorem Ipsum Dolor Sit Amet Consectetur?', answer: 'Answer for fifth question goes here.' },
+    { question: 'How does Buzzhub work?', answer: 'Simply download the app, create an account, and start browsing products from local dispensaries. Place your order, and it will be delivered right to your doorstep.' },
+    { question: 'Is Buzzhub legal?', answer: 'Yes, Buzzhub operates within the legal framework of your region. We adhere to all applicable laws and regulations.' },
+    { question: 'How secure is Buzzhub?', answer: 'We take your privacy and security seriously. We use state-of-the-art encryption to protect your personal information and payment details.' },
+    { question: 'Can I track my order?', answer: 'Yes, you can track your order status in real-time through the Buzzhub app.' },
   ];
 
   const toggleFAQ = (index) => {

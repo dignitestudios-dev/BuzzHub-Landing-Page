@@ -13,23 +13,31 @@
           <p className="text-green-600 font-medium uppercase">Features</p>
           <h2 className="text-3xl md:text-4xl font-bold mt-2">How Buzzhub Works</h2>
           <p className="text-gray-600 mt-4 max-w-2xl mx-auto">
-            Lorem Ipsum Dolor Sit Amet Consectetur. Justo Nisl Id Amet Suscipits Lorem Vestibulum Quam. Ut Nulla In Fringilla Erat. Faucibus A Ultrices Rhoncus Urna.
-          </p>
+          Effortlessly explore dispensaries, compare products, and place secure orders. Whether you're a customer or a vendor, Buzzhub streamlines the process for all your cannabis needs.          </p>
         </div>
 
         <div className="relative flex flex-col md:flex-row items-center justify-center mt-16 space-y-12 md:space-y-0">
           <div className="flex flex-col items-center md:items-end space-y-12 md:mr-8 text-right">
-            <FeatureItem
-              number="1"
-              title="Feature Title Here"
-              description="Lorem Ipsum Dolor Sit Amet Consectetur."
-              alignment="right"
-            />
+          <FeatureItem
+  number="1"
+  title="Log/Sign Up"
+  description={
+    <>
+      Join Buzzhub easily with secure sign-up via <br /> email or social media!
+      Start enjoying a seamless <br /> shopping experience today!
+    </>
+  }
+  alignment="right"
+/>
+
             <FeatureItem
               number="3"
-              title="Feature Title Here"
-              description="Lorem Ipsum Dolor Sit Amet Consectetur."
-              alignment="right"
+              title="Product Ordering"
+              description={
+                <>
+                 Order effortlessly with easy <br /> cart management and secure checkout!
+                </>
+              }              alignment="right"
             />
           </div>
           
@@ -50,58 +58,38 @@
           <div className="flex flex-col items-center md:items-start space-y-12 md:ml-8 text-left">
             <FeatureItem
               number="2"
-              title="Feature Title Here"
-              description="Lorem Ipsum Dolor Sit Amet Consectetur."
-              alignment="left"
+              title="Product Search"
+              description={
+                <>
+Find cannabis products quickly with our <br /> intuitive search filters!
+Start enjoying <br /> a seamless shopping  experience today!
+                </>
+              }              alignment="left"
             />
             <FeatureItem
               number="4"
-              title="Feature Title Here"
-              description="Lorem Ipsum Dolor Sit Amet Consectetur."
-              alignment="left"
+              title=" Product Delivery"
+              description={
+                <>
+                  Choose convenient delivery or pickup <br /> options tailored to you!
+                </>
+              }              alignment="left"
             />
           </div>
         </div>
-
-        {/* <style>{`
-    @keyframes bounce-up {
-      0%, 100% {
-        transform: translateY(0);
-      }
-      50% {
-        transform: translateY(-10px);
-
-      }
-    }
-
-    @keyframes bounce-down {
-      0%, 100% {
-        transform: translateY(0);
-      }
-      50% {
-        transform: translateY(10px);
-        
-      }
-    }
-
-    .animate-bounce-up {
-      animation: bounce-up 1.5s ease-in-out infinite;
-    }
-
-    .animate-bounce-down {
-      animation: bounce-down 1.5s ease-in-out infinite;
-    }
-  `}</style> */}
       </section>
     );
   };
 
   const FeatureItem = ({ number, title, description, alignment }) => {
     return (
-      <div className={`flex flex-col items-${alignment === 'right' ? 'start' : 'end'} space-y-2`}>
-        <div className="flex items-center justify-center w-[70px] h-[70px] rounded-2xl bg-[#E6F4EC] text-[#1D7C42] font-normal text-[32px] mb-2">
+      <div className={`flex flex-col items-${alignment === 'left' ? 'start' : 'end'} space-y-2`}>
+        <div className={`flex items-center justify-${alignment === 'left' ? 'start' : 'end'} w-full`}>
+        <p className="flex items-center justify-center w-[70px] h-[70px] rounded-2xl bg-[#E6F4EC] text-[#1D7C42] font-normal text-[32px] mb-2">
           {number}
+        </p>
         </div>
+        
         <h3 className="text-xl font-semibold">{title}</h3> 
         <p className="text-gray-600 text-[16px]">{description}</p>
       </div>

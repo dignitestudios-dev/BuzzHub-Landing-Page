@@ -92,7 +92,6 @@ const Testimonials = () => {
         </div>
       </div>
       
-      {/* Styles for mobile view */}
       <style jsx>{`
   @media (max-width: 768px) {
     .mobile\:w-\[90\%\] {

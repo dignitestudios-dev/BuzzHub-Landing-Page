@@ -4,6 +4,14 @@ import { FiSend } from 'react-icons/fi';
 import { logo2 } from "../assets/export";
 
 const Footer = () => {
+
+    const scrollToSection = (sectionId) => {
+        const section = document.getElementById(sectionId);
+        if (section) {
+          section.scrollIntoView({ behavior: 'smooth' });
+          setIsOpen(false); // Close the menu if it's open
+        }
+      };
     return (
         <footer className="bg-[#2F3133] text-white py-4 p-6">
             <div className="container mx-auto px-6 md:px-10 grid grid-cols-1 md:grid-cols-4 gap-8">
@@ -18,12 +26,12 @@ const Footer = () => {
                 <div className="text-center md:text-left space-y-2 py-10">
                     <h3 className="text-lg font-semibold">Quick Links</h3>
                     <ul className="space-y-1">
-                        <li><a href="#" className="hover:text-gray-400">Home</a></li>
-                        <li><a href="#" className="hover:text-gray-400">Features</a></li>
-                        <li><a href="#" className="hover:text-gray-400">How It Works</a></li>
-                        <li><a href="#" className="hover:text-gray-400">About Us</a></li>
-                        <li><a href="#" className="hover:text-gray-400">Testimonial</a></li>
-                        <li><a href="#" className="hover:text-gray-400">FAQs</a></li>
+                    <li className="hover:underline cursor-pointer" onClick={() => scrollToSection('home')}>Home</li>
+            <li className="hover:underline cursor-pointer" onClick={() => scrollToSection('features')}>Features</li>
+            <li className="hover:underline cursor-pointer" onClick={() => scrollToSection('howItWorks')}>How It Works</li>
+            <li className="hover:underline cursor-pointer" onClick={() => scrollToSection('aboutUs')}>About Us</li>
+            <li className="hover:underline cursor-pointer" onClick={() => scrollToSection('testimonials')}>Testimonial</li>
+            <li className="hover:underline cursor-pointer" onClick={() => scrollToSection('faqs')}>FAQs</li>
                     </ul>
                 </div>
                 

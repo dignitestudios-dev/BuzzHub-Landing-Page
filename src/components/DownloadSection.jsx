@@ -43,16 +43,14 @@ const DownloadSection = () => {
         <h1 className="text-3xl lg:text-4xl font-bold mt-2 mb-4">Get Started Today!</h1>
         <p className="text-gray-600 mb-6 text-sm lg:text-base">
           <span>
-            Lorem ipsum dolor sit amet consectetur. Justo nisl id amet suscipit
-            lorem
+          Experience the convenience and ease of cannabis delivery  
           </span>
           <br />
           <span>
-            vestibulum quam. Ut nulla in fringilla erat. Faucibus a ultrices
-            rhoncus urna. Ut
+          with Buzzhub. Download our app now and start exploring 
           </span>
           <br />
-          nulla in fringilla erat. Faucibus a ultrices rhoncus urna.
+          the best products from trusted dispensaries in your area.
         </p>
 
         <div className="flex flex-col lg:flex-row">
