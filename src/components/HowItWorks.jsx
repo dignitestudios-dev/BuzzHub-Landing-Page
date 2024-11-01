@@ -67,7 +67,6 @@ const HowItWorks = () => {
         </p>
       </div>
 
-      {/* Toggle Buttons */}
       <div className="flex flex-col md:flex-row justify-center mb-6">
         <div className="bg-[#F7F7F7] w-full max-w-[386px] h-[70px] rounded-full p-2 flex items-center">
           <button onClick={() => handleAppToggle(true)} className={`flex-1 h-[50px] rounded-full font-normal text-sm md:text-base ${isCustomerApp ? 'bg-[#1D7C42] text-white' : 'text-gray-700'}`}>
@@ -91,12 +90,12 @@ const HowItWorks = () => {
           <img
             src={isCustomerApp ? howitWorks4 : howitWorks1}
             alt={isCustomerApp ? "Customer App Mockup 1" : "Vendor App Mockup 1"}
-            className="w-36 md:w-[300px] md:h-[514px] transform mb-8 -rotate-6 translate-x-2 z-10 mr-2 bounce-down"
+            className="w-36 md:w-[280px] md:h-[514px] transform mb-8 -rotate-6 translate-x-2 z-10 mr-2 bounce-down"
           />
           <img
             src={isCustomerApp ? howitWorks3 : howitWorks2}
             alt={isCustomerApp ? "Customer App Mockup 2" : "Vendor App Mockup 2"}
-            className="w-36 md:w-[300px] md:h-[514px] translate-y-16 translate-x-8 transform rotate-6 -ml-8 z-10 bounce-up"
+            className="w-36 md:w-[280px] md:h-[514px] translate-y-16 translate-x-8 transform rotate-6 -ml-8 z-10 bounce-up"
           />
         </div>
 
