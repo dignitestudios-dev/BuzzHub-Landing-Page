@@ -15,7 +15,7 @@ const Footer = () => {
         }
       };
     return (
-        <footer className="bg-[#2F3133] text-white py-4 p-14 pt-16">
+        <footer className="bg-[#2F3133] text-white py-4 p-14 pt-16 mt-12">
             <div className="container mx-auto px-6 md:px-10 grid grid-cols-1 md:grid-cols-4 gap-8">
                 
                 <div className="flex flex-col items-center md:items-start">
@@ -61,15 +61,15 @@ const Footer = () => {
 
             </div>
 
-            <div className="border-t border-gray-700 my-6"></div>
+            <div className="border-t border-white my-6"></div>
 
             <div className="container mx-auto px-6 md:px-10 flex flex-col md:flex-row justify-between items-center text-sm text-white">
                 <div className="flex space-x-4 mb-4 md:mb-4 ">
                     <a href="#" className="hover:text-gray-400 text-xl"><FaFacebookF /></a>
                     <a href="#" className="hover:text-gray-400 text-xl"><FaTwitter /></a>
-                    <a href="#" className="hover:text-gray-400 text-xl ml-4"><FaLinkedinIn /></a>
+                    <a href="#" className="hover:text-gray-400 text-xl"><FaLinkedinIn /></a>
                 </div>
-                <p className="text-center md:text-left ml-10 mb-4">2024 Copyright Reserves. Buzzhub.co</p>
+                <p className="text-center md:text-left ml-10 mb-4">2024 Copyright Reserves. Buzzhub</p>
                 <div className="flex space-x-4 mt-4 md:mt-0">
                     <a href="#" className="hover:text-gray-400 mb-4">Privacy Policy</a>
                     <a href="#" className="hover:text-gray-400 mb-4">Terms & Conditions</a>

@@ -39,7 +39,7 @@ const FaqSection = () => {
           <div
             key={index}
             onClick={() => toggleFAQ(index)}
-            className={`p-6 rounded-xl w-full md:w-[1200px] items-center justify-center cursor-pointer border transition-all duration-300 ease-in-out`}
+            className={`p-4 rounded-3xl w-full md:w-[1200px] items-center justify-center cursor-pointer border transition-all duration-300 ease-in-out `}
           >
             <div className="flex justify-between items-center">
               <h3 className="text-[18px] font-medium text-center pl-4">{faq.question}</h3>

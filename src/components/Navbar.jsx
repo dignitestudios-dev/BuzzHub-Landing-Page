@@ -33,7 +33,7 @@ const Navbar = () => {
           </ul>
         </div>
         <div className="hidden md:flex">
-          <button className="bg-white text-black px-5 py-2 rounded-full font-normal hover:bg-gray-200">
+          <button className="bg-white text-black px-5 rounded-full font-medium hover:bg-gray-200 w-[163px] h-[40px]">
             Get The App
           </button>
         </div>
