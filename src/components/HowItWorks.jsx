@@ -82,7 +82,7 @@ const HowItWorks = () => {
       <div className="flex flex-col md:flex-row items-center justify-between mb-16">
         <div className="relative flex justify-center items-center mb-8 md:mb-0 md:w-1/2">
           <div
-            className={`absolute inset-0 flex justify-center items-center bg-no-repeat bg-center ${isCustomerApp ? 'bg-cover md:bg-contain' : 'bg-cover md:bg-contain'}`}
+            className={`absolute inset-0 flex justify-center items-center bg-no-repeat bg-center ${isCustomerApp ? 'bg-contain' : 'bg-cover md:bg-contain'}`}
             style={{ backgroundImage: `url(${howitworksBg})` }}
           >
             <div className="w-72 h-72 md:w-[350px] md:h-[350px] opacity-30" />
