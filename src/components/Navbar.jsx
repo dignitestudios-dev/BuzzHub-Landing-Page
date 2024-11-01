@@ -20,7 +20,7 @@ const Navbar = () => {
 <div className="relative bg-transparent text-white flex flex-col items-center pt-10">
 <nav className="flex justify-between items-center w-full max-w-screen-lg px-4 md:px-10 lg:px-20 text-sm">
         <div className="flex items-center">
-          <img src={logo} alt="Logo" className="h-14" />
+          <img src={logo} alt="Logo" className="h-[93px] w-[93px]" />
         </div>
         <div className="hidden md:flex flex-1 justify-center">
           <ul className="flex space-x-8">
@@ -56,7 +56,7 @@ const Navbar = () => {
 
       {/* Mobile Menu */}
       {isOpen && (
-        <div className="md:hidden bg-green-200 text-green-600 w-full py-4 px-4 border border-white">
+        <div className="md:hidden bg-green-200 text-green-600 w-full py-4 px-4 ">
           <ul className="flex flex-col space-y-4 items-center justify-center uppercase">
             <li className="hover:underline cursor-pointer" onClick={() => scrollToSection('home')}>Home</li>
             <li className="hover:underline cursor-pointer" onClick={() => scrollToSection('features')}>Features</li>

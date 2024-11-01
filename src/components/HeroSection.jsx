@@ -54,7 +54,7 @@ const HeroSection = () => {
           alt="Leaf Decoration"
           className="w-16 h-auto mx-auto mb-4" 
         />
-        <h2 className="text-sm uppercase tracking-wider">Elevating Your Cannabis Experience</h2>
+        <h2 className="text-sm md:text-[18px] tracking-wider font-medium">Elevating Your Cannabis Experience</h2>
         <h1 className="text-4xl md:text-5xl font-bold mt-4">By Connecting You to Trusted Dispensaries</h1>
         <p className="text-4xl md:text-5xl mt-2 font-bold">Find. Order. Enjoy. Anytime, Anywhere.</p>
 

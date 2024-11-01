@@ -43,8 +43,8 @@ const FaqSection = () => {
           >
             <div className="flex justify-between items-center">
               <h3 className="text-[18px] font-medium text-center pl-4">{faq.question}</h3>
-              <span className="text-green-500 text-2xl">
-                {openIndex === index ? 'x' : '+'}
+              <span className="text-green-500 text-[34px]">
+                {openIndex === index ? '×' : '+'}
               </span>
             </div>
             {openIndex === index && (
