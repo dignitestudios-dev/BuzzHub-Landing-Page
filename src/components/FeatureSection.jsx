@@ -8,16 +8,14 @@ const FeatureSection = () => {
         <img
           src={GreenleafImage}
           alt="Green Leaf Decoration"
-          className="w-auto h-auto mx-auto mb-4"
+          className="w-12 h-12 mx-auto mb-4"
         />
         <p className="text-green-600 font-medium uppercase">Features</p>
         <h2 className="text-3xl md:text-4xl font-bold mt-2">
           How Buzzhub Works
         </h2>
         <p className="text-gray-600 mt-4 max-w-2xl mx-auto p-2">
-          Effortlessly explore dispensaries, compare products, and place secure
-          orders. Whether you're a customer or a vendor, Buzzhub streamlines the
-          process for all your cannabis needs.{" "}
+        Buzzhub is committed to providing a safe, secure, and convenient platform for both buyers and dispensaries. With a focus on user-friendly interfaces, transparent information, and excellent customer support, Buzzhub aims to build trust and foster a thriving cannabis community.
         </p>
       </div>
 
@@ -25,12 +23,11 @@ const FeatureSection = () => {
         <div className="flex flex-col items-center md:items-end space-y-12 md:mr-8 text-right">
           <FeatureItem
             number="1"
-            title="Log/Sign Up"
+            title="User-Friendly Interface"
             description={
               <>
-                Join Buzzhub easily with secure sign-up via <br /> email or
-                social media! Start enjoying a seamless <br /> shopping
-                experience today!
+                Both buyer and dispensary interfaces <br /> should be intuitive and easy to navigate, <br />  with clear labeling and a logical flow.
+
               </>
             }
             alignment="right"
@@ -38,11 +35,11 @@ const FeatureSection = () => {
 
           <FeatureItem
             number="3"
-            title="Product Ordering"
+            title="Secure Transactions"
             description={
               <>
-                Order effortlessly with easy <br /> cart management and secure
-                checkout!
+                Ensure that all transactions are secure  <br /> and protected from fraud. This includes using   <br /> encryption for sensitive data and   <br /> implementing robust security measures.
+
               </>
             }
             alignment="right"
@@ -66,23 +63,21 @@ const FeatureSection = () => {
         <div className="flex flex-col items-center md:items-start space-y-12 md:ml-8 text-left">
           <FeatureItem
             number="2"
-            title="Product Search"
+            title="Transparent Information"
             description={
               <>
-                Find cannabis products quickly with our <br /> intuitive search
-                filters! Start enjoying <br /> a seamless shopping experience
-                today!
+                Provide clear and accurate information  <br /> about products, pricing,  <br /> and dispensary details for both buyers  <br /> and dispensaries. This includes product  <br /> descriptions, strain information,   <br /> pricing, and dispensary locations.
               </>
             }
             alignment="left"
           />
           <FeatureItem
             number="4"
-            title=" Product Delivery"
+            title=" Excellent Customer Support"
             description={
               <>
-                Choose convenient delivery or pickup <br /> options tailored to
-                you!
+               Offer responsive and helpful customer  <br /> support to address any questions or concerns  <br /> that buyers or dispensaries may have.  <br /> This can include live chat,  <br /> email support, or a FAQ section.
+
               </>
             }
             alignment="left"

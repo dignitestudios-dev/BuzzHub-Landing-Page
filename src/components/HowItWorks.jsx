@@ -26,53 +26,54 @@ const HowItWorks = () => {
   return (
     <section className="py-20 bg-white p-8" id="howItWorks">
       <style>
-        {`
-          @keyframes bounceDown {
-            0%, 100% {
-              transform: translateY(0) rotate(-6deg);
-            }
-            40% {
-              transform: translateY(-30px) rotate(-6deg);
-            }
-            60% {
-              transform: translateY(-15px) rotate(-6deg);
-            }
-          }
-          @keyframes bounceUp {
-            0%, 100% {
-              transform: translateY(0) rotate(6deg);
-            }
-            40% {
-              transform: translateY(30px) rotate(6deg);
-            }
-            60% {
-              transform: translateY(15px) rotate(6deg);
-            }
-          }
-          .bounce-down {
-            animation: bounceDown 1.5s ease-in-out infinite;
-          }
-          .bounce-up {
-            animation: bounceUp 1.5s ease-in-out infinite;
-          }
-        `}
-      </style>
+  {`
+    @keyframes bounceDown {
+      0%, 100% {
+        transform: translateY(0) rotate(-6deg);
+      }
+      40% {
+        transform: translateY(-30px) rotate(-6deg);
+      }
+      60% {
+        transform: translateY(-15px) rotate(-6deg);
+      }
+    }
+    @keyframes bounceUp {
+      0%, 100% {
+        transform: translateY(0) rotate(6deg);
+      }
+      40% {
+        transform: translateY(30px) rotate(6deg);
+      }
+      60% {
+        transform: translateY(15px) rotate(6deg);
+      }
+    }
+    .bounce-down {
+      animation: bounceDown 4.5s ease-in-out infinite; /* Slowed down */
+    }
+    .bounce-up {
+      animation: bounceUp 4.5s ease-in-out infinite; /* Slowed down */
+    }
+  `}
+</style>
 
-      <img src={GreenleafImage} alt="Green Leaf Decoration" className="w-16 h-auto mx-auto mb-4" />
+
+      <img src={GreenleafImage} alt="Green Leaf Decoration" className="w-14 h-14 mx-auto mb-2" />
       <div className="mb-12 text-center">
-        <p className="text-green-600 font-normal">How It Works</p>
-        <h2 className="text-2xl md:text-3xl font-bold mt-2">How Does This App Work</h2>
-        <p className="text-gray-600 mt-4 max-w-2xl mx-auto text-sm md:text-base">
+        <p className="text-green-600 font-medium text-[22px]">How It Works</p>
+        <h2 className="text-2xl md:text-[42px] font-semibold mt-2">How Does This App Works</h2>
+        <p className="text-gray-600 mt-4 max-w-2xl mx-auto text-sm md:text-medium md:text-[16px]">
         Effortlessly explore dispensaries, compare products, and place secure orders. Whether you're a customer or a vendor, Buzzhub streamlines the process for all your cannabis needs.
         </p>
       </div>
 
       <div className="flex flex-col md:flex-row justify-center mb-6">
         <div className="bg-[#F7F7F7] w-full max-w-[386px] h-[70px] rounded-full p-2 flex items-center">
-          <button onClick={() => handleAppToggle(true)} className={`flex-1 h-[50px] rounded-full font-normal text-sm md:text-base ${isCustomerApp ? 'bg-[#1D7C42] text-white' : 'text-gray-700'}`}>
+          <button onClick={() => handleAppToggle(true)} className={`flex-1 h-[50px] rounded-full font-normal text-sm  md:text-[18px] md:text-normal ${isCustomerApp ? 'bg-[#1D7C42] text-white' : 'text-gray-700'}`}>
             Customer App
           </button>
-          <button onClick={() => handleAppToggle(false)} className={`flex-1 h-[50px] rounded-full font-normal text-sm md:text-base ${!isCustomerApp ? 'bg-[#1D7C42] text-white' : 'text-gray-700'}`}>
+          <button onClick={() => handleAppToggle(false)} className={`flex-1 h-[50px] rounded-full font-normal text-sm md:text-[18px] md:text-normal ${!isCustomerApp ? 'bg-[#1D7C42] text-white' : 'text-gray-700'}`}>
             Vendor App
           </button>
         </div>
