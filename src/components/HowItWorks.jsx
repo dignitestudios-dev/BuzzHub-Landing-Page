@@ -124,7 +124,7 @@ const Step = ({ icon, iconWhite, title, description }) => {
         <img src={isHovered ? iconWhite : icon} alt={title} className="w-16 h-16 p-2" />
       </div>
       <h3 className="text-lg font-semibold mt-2">{title}</h3>
-      <p className="text-gray-600 text-sm md:text-base mb-6">{description}</p>
+      <p className="text-gray-600 text-left text text-sm md:text-base mb-6">{description}</p>
     </div>
   );
 };
