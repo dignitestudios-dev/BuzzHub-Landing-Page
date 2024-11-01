@@ -60,10 +60,10 @@ const HeroSection = () => {
 
         <div className="flex justify-center space-x-4 mt-8">
           <a href="#" className="flex items-center">
-            <img src={playstore} alt="Get it on Google Play" className="h-12" />
+            <img src={playstore} alt="Get it on Google Play" className="h-14" />
           </a>
           <a href="#" className="flex items-center">
-            <img src={appstore} alt="Download on the App Store" className="h-12" />
+            <img src={appstore} alt="Download on the App Store" className="h-14" />
           </a>
         </div>
       </div>
