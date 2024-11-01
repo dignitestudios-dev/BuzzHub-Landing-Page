@@ -81,13 +81,13 @@ const HeroSection = () => {
         <img
           src={hero2}
           alt="Hero Image 2"
-          className={`absolute left-0 transform translate-y-20 -rotate-12 z-0 transition-transform duration-500 ${animateLeft ? 'translate-x-96' : 'translate-x-[450px]'}`}
+          className={`hidden md:block lg:block absolute left-0 transform translate-y-20 -rotate-12 z-0 transition-transform duration-500 ${animateLeft ? 'translate-x-96' : 'translate-x-[450px]'}`}
         />
 
         <img
           src={hero3}
           alt="Hero Image 3"
-          className={`absolute right-0 transform translate-y-20 rotate-12 z-0 transition-transform duration-500 ${animateRight ? '-translate-x-96' : '-translate-x-[450px]'}`}
+          className={`hidden md:block lg:block absolute right-0 transform translate-y-20 rotate-12 z-0 transition-transform duration-500 ${animateRight ? '-translate-x-96' : '-translate-x-[450px]'}`}
         />
       </div>  
     </div>
