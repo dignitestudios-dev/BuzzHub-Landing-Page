@@ -12,13 +12,13 @@ const Footer = () => {
     };
 
     return (
-        <footer className="bg-[#2F3133] text-white py-4 p-6 md:p-14 pt-16 mt-12">
+        <footer className="bg-[#2F3133] text-white py-4 px-6 md:px-14 pt-16 mt-12">
             <div className="container mx-auto grid grid-cols-1 md:grid-cols-4 gap-8">
                 
                 <div className="flex flex-col items-center md:items-start">
                     <img src={logo2} alt="Buzzhub logo2" className="w-[132px] h-[132px] mb-2" />
                     <p className="text-sm text-center md:text-left">
-                        Lorem Ipsum Dolor Sit Amet Consectetur. <br/> Elit Sit Risus Turpis Dolor Sagittis Amet Tortor. <br/> Sed At Turpis Integer Turpis Velit Trincidunt Sit Eros.  Amet Accumsan Sed.
+                        Lorem Ipsum Dolor Sit Amet Consectetur. <br/> Elit Sit Risus Turpis Dolor Sagittis Amet Tortor. <br/> Sed At Turpis Integer Turpis Velit Trincidunt Sit Eros. Amet Accumsan Sed.
                     </p>
                 </div>
                 
@@ -36,7 +36,7 @@ const Footer = () => {
                 
                 <div className="text-center md:text-left space-y-2 py-10">
                     <h3 className="text-lg font-semibold">Contact</h3>
-                    <p className="font-light text-gray-300">5053 Kiehn Junctions, <br/> Corpus Christi 19197</p>
+                    <p className="font-light text-gray-300">5053 Kiehn Junctions, <br /> Corpus Christi 19197</p>
                     <p className="font-light text-gray-300">1-774-770-2563 X587</p>
                     <p className="font-light text-gray-300">rebecca21@yahoo.com</p>
                 </div>
@@ -44,22 +44,23 @@ const Footer = () => {
                 <div className="text-center md:text-left space-y-4 py-10">
                     <h3 className="text-lg font-semibold">Get Latest Information</h3>
                     <p>Subscribe now with your email</p>
-                    <div className="relative flex flex-col sm:flex-row items-center">
+                    <div className="relative max-w-sm mx-auto md:mx-0">
                         <input 
                             type="email" 
                             placeholder="Enter Email" 
-                            className="py-2 px-4 rounded-full focus:outline-none pr-12 text-black w-full sm:w-[260px] lg:w-[304px] h-[50px] mb-2 sm:mb-0" 
+                            className="w-full py-2 pl-4 pr-12 rounded-full focus:outline-none text-black h-[50px]"
                         />
-                        <button className="absolute sm:relative right-2 sm:right-0 top-2 sm:top-0 sm:ml-2 bg-[#1D7C42] hover:bg-green-700 text-white p-2 rounded-full flex items-center justify-center">
+                        <button className="absolute right-2 top-1/2 transform -translate-y-1/2 bg-[#1D7C42] hover:bg-green-700 text-white p-2 rounded-full">
                             <FiSend className="h-5 w-5" />
                         </button>
                     </div>
                 </div>
+
             </div>
 
             <div className="border-t border-white my-6"></div>
 
-            <div className="container mx-auto flex flex-col md:flex-row justify-between items-center text-sm text-white px-6 md:px-10">
+            <div className="container mx-auto flex flex-col md:flex-row justify-between items-center text-sm text-white">
                 <div className="flex space-x-4 mb-4 md:mb-0">
                     <a href="#" className="hover:text-gray-400 text-xl"><FaFacebookF /></a>
                     <a href="#" className="hover:text-gray-400 text-xl"><FaTwitter /></a>
