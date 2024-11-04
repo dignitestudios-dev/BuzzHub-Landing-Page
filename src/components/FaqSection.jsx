@@ -26,7 +26,7 @@ const FaqSection = () => {
       <img
           src={GreenleafImage}
           alt="Green Leaf Decoration"
-          className="w-16 h-auto mx-auto" 
+          className="w-12 h-auto mx-auto" 
         />
         <h2 className="text-[#1D7C42] mx-auto font-medium text-[22px] flex justify-center items-center">
           FAQs
@@ -43,7 +43,7 @@ const FaqSection = () => {
           >
             <div className="flex justify-between items-center">
               <h3 className="text-[18px] font-medium text-center pl-4">{faq.question}</h3>
-              <span className="text-green-500 text-[34px]">
+              <span className="text-[#1D7C42] text-[40px]">
                 {openIndex === index ? '×' : '+'}
               </span>
             </div>

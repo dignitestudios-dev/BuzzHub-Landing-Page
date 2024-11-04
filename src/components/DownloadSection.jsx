@@ -35,7 +35,7 @@ const DownloadSection = () => {
         <img
           src={GreenleafImage}
           alt="Green Leaf Decoration"
-          className="w-12 h-auto mb-4 lg:w-16"
+          className="w-12 h-auto mb-2 lg:w-16"
         />
         <h2 className="text-[#1D7C42] font-medium text-[22px] flex items-center">
           Get The App
@@ -43,14 +43,15 @@ const DownloadSection = () => {
         <h1 className="text-3xl lg:text-4xl font-semibold mt-2 mb-4">Get Started Today!</h1>
         <p className="text-gray-600 mb-6 text-sm lg:text-base">
           <span>
-          Experience the convenience and ease of cannabis delivery  
+          Experience the convenience and ease of cannabis delivery with Buzzhub. 
+  
           </span>
+          
+          
           <br />
-          <span>
-          with Buzzhub. Download our app now and start exploring 
-          </span>
+          Download our app now and start exploring the best products from trusted dispensaries 
           <br />
-          the best products from trusted dispensaries in your area.
+          in your area.
         </p>
 
         <div className="flex flex-col lg:flex-row">

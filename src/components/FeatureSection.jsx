@@ -3,14 +3,14 @@ import { featurebg, featureImage, GreenleafImage } from "../assets/export";
 
 const FeatureSection = () => {
   return (
-    <section className="bg-white text-center">
+    <section className="bg-white text-center mt-12">
       <div id="features">
         <img
           src={GreenleafImage}
           alt="Green Leaf Decoration"
-          className="w-12 h-12 mx-auto mb-4"
+          className="w-12 h-12 mx-auto "
         />
-        <p className="text-green-600 font-medium">Features</p>
+        <p className="text-[#1D7C42] text-[22px] font-medium">Features</p>
         <h2 className="text-3xl md:text-4xl font-bold mt-2">
           How Buzzhub Works
         </h2>

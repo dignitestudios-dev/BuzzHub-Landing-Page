@@ -48,7 +48,7 @@ const AboutUs = () => {
           />
         </div>
 
-        <div className="flex flex-col items-center md:flex-row md:items-start md:ml-auto md:mr-16 py-8 text-white max-w-lg">
+        <div className="flex flex-col items-center md:flex-row md:items-start md:ml-auto md:mr-16 py-8 text-white max-w-lg mt-12">
           <div className="flex flex-col items-center text-center md:items-start md:text-left">
             <img
               src={leafImage}
