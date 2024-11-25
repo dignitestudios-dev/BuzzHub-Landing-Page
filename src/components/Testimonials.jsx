@@ -5,45 +5,43 @@ const Testimonials = () => {
   const [testimonials] = useState([
     {
       id: 1,
-      name: 'Mike D',
+      name: 'Ryan Cooper',
       designation: 'Designation',
       message:
-        'Discreet, Reliable Delivery! - I love how convenient this app makes everything. My order arrives quickly, and the discreet packaging is a big plus!',
-      image: 'https://i.pravatar.cc/50?img=12',
+        'Lorem Ipsum Dolor Sit Amet Consectetur. Justo Nisl Id Amet Suscipit Lorem Vestibulum Quam. Ut Nulla In Fringilla Erat. Faucibus A Ultrices Rhoncus Urna.',
+      image: 'https://i.pravatar.cc/50?img=2',
     },
     {
       id: 2,
-      name: 'Alex R',
+      name: 'Simmi Pal',
       designation: 'Designation',
       message:
-        'My Go-To Cannabis App - I’ve tried a few different apps, but this one is hands down the best. The product quality is consistently high, and I feel confident in what I’m getting.',
-      image: 'https://i.pravatar.cc/50?img=13',
+        'Lorem Ipsum Dolor Sit Amet Consectetur. Justo Nisl Id Amet Suscipit Lorem Vestibulum Quam. Ut Nulla In Fringilla Erat. Faucibus A Ultrices Rhoncus Urna.',
+      image: 'https://i.pravatar.cc/50?img=3',
     },
     {
       id: 3,
-      name: ' Jamie L',
+      name: 'Alex Doe',
       designation: 'Designation',
       message:
-        'Helpful Recommendations Right in the App - The recommendations in the app are spot on! I always find something new to try, and the support team is just a message away.',
-      image: 'https://i.pravatar.cc/50?img=14',
+        'Lorem Ipsum Dolor Sit Amet Consectetur. Justo Nisl Id Amet Suscipit Lorem Vestibulum Quam. Ut Nulla In Fringilla Erat. Faucibus A Ultrices Rhoncus Urna.',
+      image: 'https://i.pravatar.cc/50?img=4',
     },
   ]);
 
   const [currentIndex, setCurrentIndex] = useState(0);
 
+  useEffect(() => {
+    const timer = setInterval(() => {
+      setCurrentIndex((prevIndex) => (prevIndex + 1) % testimonials.length);
+    }, 3000); 
+
+    return () => clearInterval(timer);
+  }, [testimonials.length]);
+
   const handleTestimonialClick = (index) => {
     setCurrentIndex(index);
   };
-
-  useEffect(() => {
-    if (currentIndex === testimonials.length - 1) {
-      const timer = setTimeout(() => {
-        setCurrentIndex(0);
-      }, 5000); 
-
-      return () => clearTimeout(timer);
-    }
-  }, [currentIndex, testimonials.length]);
 
   return (
     <div className="p-6 md:max-w-[1280px] w-auto h-auto mx-auto flex flex-col md:flex-row" id="testimonials">
@@ -95,21 +93,22 @@ const Testimonials = () => {
       </div>
       
       <style jsx>{`
-        @media (max-width: 768px) {
-          .mobile\:w-\[90\%\] {
-            width: 90%;
-          }
-          .mobile\:h-\[auto\] {
-            height: auto;
-          }
-        }
+  @media (max-width: 768px) {
+    .mobile\:w-\[90\%\] {
+      width: 90%;
+    }
+    .mobile\:h-\[auto\] {
+      height: auto;
+    }
+  }
 
-        @media (max-width: 375px) and (max-height: 667px) {
-          .mobile\:w-\[40\%\] {
-            width: 40%;
-          }
-        }
-      `}</style>
+  @media (max-width: 375px) and (max-height: 667px) {
+    .mobile\:w-\[40\%\] {
+      width: 40%;
+    }
+  }
+`}</style>
+
     </div>
   );
 };
