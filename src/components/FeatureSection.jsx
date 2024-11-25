@@ -3,7 +3,7 @@ import { featurebg, featureImage, GreenleafImage } from "../assets/export";
 
 const FeatureSection = () => {
   return (
-    <section className="bg-white text-center ">
+    <section className="bg-white text-center">
       <div id="features">
         <img
           src={GreenleafImage}
@@ -52,7 +52,7 @@ const FeatureSection = () => {
             </>
           }
           alignment="center"
-          mobileMarginRight="mr-4"  // Add margin on mobile
+          mobileMarginRight="mr-4"  
         />
 
         <FeatureItem
@@ -64,7 +64,7 @@ const FeatureSection = () => {
             </>
           }
           alignment="center"
-          mobileMarginRight="mr-4"  // Add margin on mobile
+          mobileMarginRight="mr-4"  
         />
       </div>
 
@@ -136,8 +136,8 @@ const FeatureSection = () => {
 };
 
 const FeatureItem = ({ number, title, description, alignment = "left", mobileMarginRight = "" }) => {
-  const alignmentClasses = alignment === "left" ? "items-start" : "items-end";
-  const justifyClasses = alignment === "left" ? "justify-start" : "justify-end";
+  const alignmentClasses = alignment === "left" ? "items-start" : alignment === "right" ? "items-end" : "items-center";
+  const justifyClasses = alignment === "left" ? "justify-start" : alignment === "right" ? "justify-end" : "justify-center";
 
   return (
     <div className={`flex flex-col ${alignmentClasses} ${mobileMarginRight} space-y-2`}>
