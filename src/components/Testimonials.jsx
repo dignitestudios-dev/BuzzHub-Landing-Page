@@ -9,7 +9,7 @@ const Testimonials = () => {
       designation: 'Designation',
       message:
       'The variety on this app is fantastic, and I can always find something in my price range. It’s become my go-to for all my cannabis needs.',
-      image: 'https://i.pravatar.cc/50?img=12',
+      image: 'https://i.pravatar.cc/?img=12',
     },
     {
       id: 2,
@@ -17,7 +17,7 @@ const Testimonials = () => {
       designation: 'Designation',
       message:
         'The recommendations in the app are spot on! I always find something new to try, and the support team is just a message away.',
-      image: 'https://i.pravatar.cc/50?img=13',
+      image: 'https://i.pravatar.cc/?img=13',
     },
     {
       id: 3,
@@ -25,7 +25,7 @@ const Testimonials = () => {
       designation: 'Designation',
       message:
       'I love how convenient this app makes everything. My order arrives quickly, and the discreet packaging is a big plus!',
-      image: 'https://i.pravatar.cc/50?img=14',
+      image: 'https://i.pravatar.cc/?img=14',
     },
   ]);
 
