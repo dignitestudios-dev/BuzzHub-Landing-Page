@@ -8,7 +8,7 @@ const Testimonials = () => {
       name: 'Mike D',
       designation: 'Designation',
       message:
-        'I love how convenient this app makes everything. My order arrives quickly, and the discreet packaging is a big plus!',
+      'The variety on this app is fantastic, and I can always find something in my price range. It’s become my go-to for all my cannabis needs.',
       image: 'https://i.pravatar.cc/50?img=12',
     },
     {
@@ -24,7 +24,7 @@ const Testimonials = () => {
       name: 'Chris M',
       designation: 'Designation',
       message:
-        'The variety on this app is fantastic, and I can always find something in my price range. It’s become my go-to for all my cannabis needs.',
+      'I love how convenient this app makes everything. My order arrives quickly, and the discreet packaging is a big plus!',
       image: 'https://i.pravatar.cc/50?img=14',
     },
   ]);
