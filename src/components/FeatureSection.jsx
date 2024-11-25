@@ -3,31 +3,80 @@ import { featurebg, featureImage, GreenleafImage } from "../assets/export";
 
 const FeatureSection = () => {
   return (
-    <section className="bg-white text-center mt-12">
+    <section className="bg-white text-center ">
       <div id="features">
         <img
           src={GreenleafImage}
           alt="Green Leaf Decoration"
-          className="w-12 h-12 mx-auto "
+          className="w-12 h-12 mx-auto mb-4"
         />
-        <p className="text-[#1D7C42] text-[22px] font-medium">Features</p>
+        <p className="text-green-600 font-medium">Features</p>
         <h2 className="text-3xl md:text-4xl font-bold mt-2">
           How Buzzhub Works
         </h2>
         <p className="text-gray-600 mt-4 max-w-2xl mx-auto p-2">
-        Buzzhub is committed to providing a safe, secure, and convenient platform for both buyers and dispensaries. With a focus on user-friendly interfaces, transparent information, and excellent customer support, Buzzhub aims to build trust and foster a thriving cannabis community.
+          Buzzhub is committed to providing a safe, secure, and convenient platform for both buyers and dispensaries. With a focus on user-friendly interfaces, transparent information, and excellent customer support, Buzzhub aims to build trust and foster a thriving cannabis community.
         </p>
       </div>
 
-      <div className="relative flex flex-col md:flex-row items-center justify-center mt-16 space-y-12 md:space-y-0">
-        <div className="flex flex-col items-center md:items-end space-y-12 md:mr-8 text-right">
+      {/* Features for Mobile */}
+      <div className="relative flex flex-col md:hidden items-center justify-center mt-16 space-y-12">
+        <FeatureItem
+          number="1"
+          title="User-Friendly Interface"
+          description={
+            <>
+              Both buyer and dispensary interfaces <br /> should be intuitive and easy to navigate, <br />  with clear labeling and a logical flow.
+            </>
+          }
+          alignment="center"
+        />
+
+        <FeatureItem
+          number="2"
+          title="Transparent Information"
+          description={
+            <>
+              Provide clear and accurate information <br /> about products, pricing, <br /> and dispensary details for both buyers <br /> and dispensaries. This includes product <br /> descriptions, strain information, <br /> pricing, and dispensary locations.
+            </>
+          }
+          alignment="center"
+        />
+
+        <FeatureItem
+          number="3"
+          title="Secure Transactions"
+          description={
+            <>
+              Ensure that all transactions are secure <br /> and protected from fraud. This includes using <br /> encryption for sensitive data and <br /> implementing robust security measures.
+            </>
+          }
+          alignment="center"
+          mobileMarginRight="mr-4"  // Add margin on mobile
+        />
+
+        <FeatureItem
+          number="4"
+          title="Excellent Customer Support"
+          description={
+            <>
+              Offer responsive and helpful customer <br /> support to address any questions or concerns <br /> that buyers or dispensaries may have. <br /> This can include live chat, <br /> email support, or a FAQ section.
+            </>
+          }
+          alignment="center"
+          mobileMarginRight="mr-4"  // Add margin on mobile
+        />
+      </div>
+
+      {/* Features for Desktop */}
+      <div className="relative flex flex-col md:flex-row items-center justify-center mt-16 space-y-12 md:space-y-0 md:space-x-8">
+        <div className="flex flex-col items-center md:items-end space-y-12 md:mr-8 text-right hidden md:block">
           <FeatureItem
             number="1"
             title="User-Friendly Interface"
             description={
               <>
                 Both buyer and dispensary interfaces <br /> should be intuitive and easy to navigate, <br />  with clear labeling and a logical flow.
-
               </>
             }
             alignment="right"
@@ -39,7 +88,6 @@ const FeatureSection = () => {
             description={
               <>
                 Ensure that all transactions are secure  <br /> and protected from fraud. This includes using   <br /> encryption for sensitive data and   <br /> implementing robust security measures.
-
               </>
             }
             alignment="right"
@@ -60,7 +108,7 @@ const FeatureSection = () => {
           />
         </div>
 
-        <div className="flex flex-col items-center md:items-start space-y-12 md:ml-8 text-left">
+        <div className="flex flex-col items-center md:items-start space-y-12 md:ml-8 text-left hidden md:block">
           <FeatureItem
             number="2"
             title="Transparent Information"
@@ -73,11 +121,10 @@ const FeatureSection = () => {
           />
           <FeatureItem
             number="4"
-            title=" Excellent Customer Support"
+            title="Excellent Customer Support"
             description={
               <>
                Offer responsive and helpful customer  <br /> support to address any questions or concerns  <br /> that buyers or dispensaries may have.  <br /> This can include live chat,  <br /> email support, or a FAQ section.
-
               </>
             }
             alignment="left"
@@ -88,12 +135,12 @@ const FeatureSection = () => {
   );
 };
 
-const FeatureItem = ({ number, title, description, alignment = "left" }) => {
+const FeatureItem = ({ number, title, description, alignment = "left", mobileMarginRight = "" }) => {
   const alignmentClasses = alignment === "left" ? "items-start" : "items-end";
   const justifyClasses = alignment === "left" ? "justify-start" : "justify-end";
 
   return (
-    <div className={`flex flex-col ${alignmentClasses} space-y-2`}>
+    <div className={`flex flex-col ${alignmentClasses} ${mobileMarginRight} space-y-2`}>
       <div className={`flex ${justifyClasses}`}>
         <p className="flex items-center justify-center w-[70px] h-[70px] rounded-2xl bg-[#E6F4EC] text-[#1D7C42] font-normal text-[32px] mb-2">
           {number}
@@ -105,6 +152,5 @@ const FeatureItem = ({ number, title, description, alignment = "left" }) => {
     </div>
   );
 };
-
 
 export default FeatureSection;
