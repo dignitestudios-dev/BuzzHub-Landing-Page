@@ -5,27 +5,27 @@ const Testimonials = () => {
   const [testimonials] = useState([
     {
       id: 1,
-      name: 'Ryan Cooper',
+      name: 'Mike D',
       designation: 'Designation',
       message:
-        'Lorem Ipsum Dolor Sit Amet Consectetur. Justo Nisl Id Amet Suscipit Lorem Vestibulum Quam. Ut Nulla In Fringilla Erat. Faucibus A Ultrices Rhoncus Urna.',
-      image: 'https://i.pravatar.cc/50?img=2',
+        'I love how convenient this app makes everything. My order arrives quickly, and the discreet packaging is a big plus!',
+      image: 'https://i.pravatar.cc/50?img=12',
     },
     {
       id: 2,
-      name: 'Simmi Pal',
+      name: 'Jamie L',
       designation: 'Designation',
       message:
-        'Lorem Ipsum Dolor Sit Amet Consectetur. Justo Nisl Id Amet Suscipit Lorem Vestibulum Quam. Ut Nulla In Fringilla Erat. Faucibus A Ultrices Rhoncus Urna.',
-      image: 'https://i.pravatar.cc/50?img=3',
+        'The recommendations in the app are spot on! I always find something new to try, and the support team is just a message away.',
+      image: 'https://i.pravatar.cc/50?img=13',
     },
     {
       id: 3,
-      name: 'Alex Doe',
+      name: 'Chris M',
       designation: 'Designation',
       message:
-        'Lorem Ipsum Dolor Sit Amet Consectetur. Justo Nisl Id Amet Suscipit Lorem Vestibulum Quam. Ut Nulla In Fringilla Erat. Faucibus A Ultrices Rhoncus Urna.',
-      image: 'https://i.pravatar.cc/50?img=4',
+        'The variety on this app is fantastic, and I can always find something in my price range. It’s become my go-to for all my cannabis needs.',
+      image: 'https://i.pravatar.cc/50?img=14',
     },
   ]);
 
@@ -71,7 +71,7 @@ const Testimonials = () => {
                 ${currentIndex === index ? 'bg-gradient-to-r from-[#1D7C42] to-[#24A456] text-white' : 'bg-white border border-gray-300 text-[#969696]'}
                 w-[350px] h-[250px] flex-shrink-0 mx-2 
                 md:w-[350px] md:h-[250px] 
-                mobile:w-[80%] mobile:h-auto mobile:mx-auto`}
+                mobile:w-[90%] mobile:h-auto mobile:mx-auto mobile:p-2 mobile:my-2`}
             >
               <div className="flex items-center space-x-3 mb-3">
                 <img
@@ -88,7 +88,7 @@ const Testimonials = () => {
                   </p>
                 </div>
               </div>
-              <p className="text-[16px] p-2 font-extralight leading-relaxed italic">{testimonial.message}</p>
+              <p className="text-[14px] p-2 font-extralight leading-relaxed italic">{testimonial.message}</p>
             </div>
           ))}
         </div>
@@ -96,17 +96,34 @@ const Testimonials = () => {
 
       <style jsx>{`
         @media (max-width: 768px) {
-          .mobile\:w-\[80\%] {
-            width: 80%;  // smaller size for wider phones
+          .mobile\:w-\[90\%] {
+            width: 90%;  // Reduce card width on smaller devices
           }
           .mobile\:h-auto {
-            height: auto;  // Allow height to adjust based on content
+            height: auto;  // Adjust height to content
+          }
+          .mobile\:p-2 {
+            padding: 8px;  // Reduce padding inside the cards
+          }
+          .mobile\:my-2 {
+            margin-top: 8px;
+            margin-bottom: 8px;  // Reduce margin between cards
           }
         }
 
         @media (max-width: 375px) {
-          .mobile\:w-\[80\%] {
-            width: 85%;  // slightly larger for very small screens like 375px width
+          .mobile\:w-\[90\%] {
+            width: 90%;  // Ensure the card takes 90% of the screen width on iPhone SE
+          }
+          .mobile\:text-[12px] {
+            font-size: 12px;  // Reduce font size for small screens
+          }
+          .mobile\:p-2 {
+            padding: 6px;  // Further reduce padding for small screens
+          }
+          .mobile\:my-2 {
+            margin-top: 4px;
+            margin-bottom: 4px;  // Further reduce margin for very small screens
           }
         }
       `}</style>
