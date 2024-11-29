@@ -62,7 +62,7 @@ const HowItWorks = () => {
       <img src={GreenleafImage} alt="Green Leaf Decoration" className="w-14 h-14 mx-auto mb-2" />
       <div className="mb-12 text-center">
         <p className="text-green-600 font-medium text-[22px]">How It Works</p>
-        <h2 className="text-2xl md:text-[42px] font-semibold mt-2">How Does This App Works</h2>
+        <h2 className="text-2xl md:text-[42px] font-semibold mt-2">How Does This App Work</h2>
         <p className="text-gray-600 mt-4 max-w-2xl mx-auto text-sm md:text-medium md:text-[16px]">
         Effortlessly explore dispensaries, compare products, and place secure orders. Whether you're a customer or a vendor, Buzzhub streamlines the process for all your cannabis needs.
         </p>
