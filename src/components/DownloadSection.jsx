@@ -35,7 +35,7 @@ const DownloadSection = () => {
         <img
           src={GreenleafImage}
           alt="Green Leaf Decoration"
-          className="w-12 h-auto mb-2 lg:w-16"
+          className="w-12 h-auto mb-4 lg:w-16"
         />
         <h2 className="text-[#1D7C42] font-medium text-[22px] flex items-center">
           Get The App
@@ -43,32 +43,30 @@ const DownloadSection = () => {
         <h1 className="text-3xl lg:text-4xl font-semibold mt-2 mb-4">Get Started Today!</h1>
         <p className="text-gray-600 mb-6 text-sm lg:text-base">
           <span>
-          Experience the convenience and ease of cannabis delivery with Buzzhub. 
-  
+          Experience the convenience and ease of cannabis delivery Download our app   
           </span>
-          
-          
           <br />
-          Download our app now and start exploring the best products from trusted dispensaries 
+          <span>
+          with Buzzhub. Download our app now and start exploring trusted dispensaries in your area
+          </span>
           <br />
-          in your area.
+          the best products from trusted dispensaries in your area.
         </p>
 
-       <div className="flex flex-col sm:flex-row justify-center items-center space-x-4 sm:space-x-6">
-  <a
-    href="#download"
-    className="text-white rounded-lg py-2 px-3 mb-2 sm:mb-0 flex items-center text-sm sm:text-base"
-  >
-    <img src={playstore} alt="Google Play" className="w-20 h-auto sm:w-24" />
-  </a>
-  <a
-    href="#download"
-    className="text-white rounded-lg py-2 px-3 flex items-center text-sm sm:text-base"
-  >
-    <img src={appstore} alt="App Store" className="w-20 h-auto sm:w-24" />
-  </a>
-</div>
-
+        <div className="flex flex-col lg:flex-row">
+          <a
+            href="#download"
+            className="text-white rounded-lg py-2 mb-2 lg:mb-0 flex items-center"
+          >
+            <img src={playstore} alt="Google Play" />
+          </a>
+          <a
+            href="#download"
+            className="text-white rounded-lg md:px-4 py-2 flex items-center"
+          >
+            <img src={appstore} alt="App Store" />
+          </a>
+        </div>
       </div>
     </div>
   );
