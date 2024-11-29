@@ -16,7 +16,6 @@ const DownloadSection = () => {
           src={featurebg}
           className="absolute top-[-80px] w-full h-full"
         />
-
         <div className="relative z-10 flex">
           <img
             src={aboutPhone1}
@@ -26,7 +25,7 @@ const DownloadSection = () => {
           <img
             src={aboutPhone2}
             alt="Phone Screenshot 2"
-            className="w-[180px] lg:w-[322.28px] h-auto transform  -translate-x-4 translate-y-4 lg:translate-x-6 lg:translate-y-12 animate-bounce-up"
+            className="w-[180px] lg:w-[322.28px] h-auto transform -translate-x-4 translate-y-4 lg:translate-x-6 lg:translate-y-12 animate-bounce-up"
           />
         </div>
       </div>
@@ -43,28 +42,37 @@ const DownloadSection = () => {
         <h1 className="text-3xl lg:text-4xl font-semibold mt-2 mb-4">Get Started Today!</h1>
         <p className="text-gray-600 mb-6 text-sm lg:text-base">
           <span>
-          Experience the convenience and ease of cannabis delivery Download our app   
+            Experience the convenience and ease of cannabis delivery. Download our app
           </span>
           <br />
           <span>
-          with Buzzhub. Download our app now and start exploring trusted dispensaries in your area
+            with Buzzhub. Download our app now and start exploring trusted dispensaries in your area
           </span>
           <br />
           the best products from trusted dispensaries in your area.
         </p>
 
-        <div className="flex flex-col lg:flex-row">
+        {/* Flex container to ensure icons are always beside each other */}
+        <div className="flex space-x-4"> {/* Flex container with horizontal space between icons */}
           <a
             href="#download"
-            className="text-white rounded-lg py-2 mb-2 lg:mb-0 flex items-center"
+            className="flex items-center justify-center py-2"
           >
-            <img src={playstore} alt="Google Play" />
+            <img 
+              src={playstore} 
+              alt="Google Play" 
+              className="w-32 h-auto lg:w-44" /* Increase size on large screens */
+            />
           </a>
           <a
             href="#download"
-            className="text-white rounded-lg md:px-4 py-2 flex items-center"
+            className="flex items-center justify-center py-2"
           >
-            <img src={appstore} alt="App Store" />
+            <img 
+              src={appstore} 
+              alt="App Store" 
+              className="w-[125px] h-auto lg:w-44" /* Increase size on large screens */
+            />
           </a>
         </div>
       </div>
