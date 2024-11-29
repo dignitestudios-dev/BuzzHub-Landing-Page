@@ -12,7 +12,7 @@ const FeatureSection = () => {
         />
         <p className="text-green-600 font-medium">Features</p>
         <h2 className="text-3xl md:text-4xl font-bold mt-2">
-          How Buzzhub Works
+What Does Buzzhub Offer?
         </h2>
         <p className="text-gray-600 mt-4 max-w-2xl mx-auto p-2">
           Buzzhub is committed to providing a safe, secure, and convenient platform for both buyers and dispensaries. With a focus on user-friendly interfaces, transparent information, and excellent customer support, Buzzhub aims to build trust and foster a thriving cannabis community.
