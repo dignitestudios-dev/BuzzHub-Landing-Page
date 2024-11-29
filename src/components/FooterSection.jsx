@@ -18,7 +18,7 @@ const Footer = () => {
                 <div className="flex flex-col items-center md:items-start">
                     <img src={logo2} alt="Buzzhub logo2" className="w-[132px] h-[132px] mb-2" />
                     <p className="text-sm text-center md:text-left">
-                        Lorem Ipsum Dolor Sit Amet Consectetur. <br/> Elit Sit Risus Turpis Dolor Sagittis Amet Tortor. <br/> Sed At Turpis Integer Turpis Velit Trincidunt Sit Eros. Amet Accumsan Sed.
+                        It’s DoorDash for your weed
                     </p>
                 </div>
                 
