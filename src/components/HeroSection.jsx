@@ -54,9 +54,17 @@ const HeroSection = () => {
           alt="Leaf Decoration"
           className="w-16 h-auto mx-auto mb-4" 
         />
-        <h2 className="text-sm md:text-[18px] tracking-wider font-medium">Elevating Your Cannabis Experience Elevating Your Cannabis Experience By Connecting You to Trusted Dispensaries</h2>
-        {/* <h1 className="text-4xl md:text-5xl font-bold mt-4"> </h1> */}
-        <p className="text-4xl md:text-5xl mt-2 font-bold">Find. Order. Enjoy. Anytime, Anywhere.</p>
+        <h2 className="text-sm md:text-[18px] tracking-wider font-medium uppercase">It’s DoorDash for your weed</h2>
+        <h1 className="text-xl md:text-2xl font-bold mt-4">Did you know that Colorado alone has over 1000 dispensaries, and across the  <br/> US  there are over 12,000 dispensaries that have popped up since in the past 12 years?</h1>
+        <p className="text-xl md:text-2xl mt-2 font-thin">That’s 1000 dispensaries a year!
+        
+        Finding the best price and the best quality can be next to impossible <br/> considering most individual websites don’t often make it easy.
+
+The creators of buzzhub have been hard at work <br/> to create a solution where all your weed needs can be met on one app.<br/>
+
+No longer do you have to endlessly search to find the right price, strain, or quality.<br/>
+
+With a click of a button you can see the line up of products <br/> each dispensary offers and thier reviews. Another click and our delivery driver will have it at your doorstep.</p>
 
         <div className="flex justify-center space-x-4 mt-8">
           <a href="#" className="flex items-center">
