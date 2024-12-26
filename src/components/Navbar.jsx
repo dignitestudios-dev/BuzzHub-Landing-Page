@@ -23,13 +23,13 @@ const Navbar = () => {
           <img src={logo} alt="Logo" className="h-[93px] w-[93px]" />
         </div>
         <div className="hidden md:flex flex-1 justify-center">
-          <ul className="flex space-x-8">
-            <li className="hover:underline cursor-pointer" onClick={() => scrollToSection('home')}>Home</li>
-            <li className="hover:underline cursor-pointer" onClick={() => scrollToSection('features')}>Features</li>
-            <li className="hover:underline cursor-pointer" onClick={() => scrollToSection('howItWorks')}>How It Works</li>
-            <li className="hover:underline cursor-pointer" onClick={() => scrollToSection('aboutUs')}>About Us</li>
-            <li className="hover:underline cursor-pointer" onClick={() => scrollToSection('testimonials')}>Testimonial</li>
-            <li className="hover:underline cursor-pointer" onClick={() => scrollToSection('faqs')}>FAQs</li>
+          <ul className="flex space-x-8 font-medium">
+            <li className="hover:underline cursor-pointer underline-offset-8" onClick={() => scrollToSection('home')}>Home</li>
+            <li className="hover:underline cursor-pointer underline-offset-8" onClick={() => scrollToSection('features')}>Features</li>
+            <li className="hover:underline cursor-pointer underline-offset-8" onClick={() => scrollToSection('howItWorks')}>How It Works</li>
+            <li className="hover:underline cursor-pointer underline-offset-8" onClick={() => scrollToSection('aboutUs')}>About Us</li>
+            <li className="hover:underline cursor-pointer underline-offset-8" onClick={() => scrollToSection('testimonials')}>Testimonial</li>
+            <li className="hover:underline cursor-pointer underline-offset-8" onClick={() => scrollToSection('faqs')}>FAQs</li>
           </ul>
         </div>
         <div className="hidden md:flex">
