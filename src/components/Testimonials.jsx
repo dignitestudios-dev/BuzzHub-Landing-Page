@@ -51,7 +51,7 @@ const Testimonials = () => {
           alt="Green Leaf Decoration"
           className="w-12 h-12"
         />
-        <h2 className="text-[#1D7C42] font-semibold text-lg mb-2">Testimonials</h2>
+        <h2 className="text-green-600 font-medium text-[22px] mb-2">Testimonials</h2>
         <h1 className="text-4xl font-semibold mb-4">What Our Customers Say</h1>
         <p className="text-gray-600">
           See what our customers have to say about their <br /> Buzzhub experience.

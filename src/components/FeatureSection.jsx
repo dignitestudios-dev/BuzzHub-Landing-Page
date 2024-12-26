@@ -10,7 +10,7 @@ const FeatureSection = () => {
           alt="Green Leaf Decoration"
           className="w-12 h-12 mx-auto mb-4"
         />
-        <p className="text-green-600 font-medium">Features</p>
+        <p className="text-green-600 font-medium text-[22px]">Features</p>
         <h2 className="text-3xl md:text-4xl font-bold mt-2">
 What Does Buzzhub Offer?
         </h2>

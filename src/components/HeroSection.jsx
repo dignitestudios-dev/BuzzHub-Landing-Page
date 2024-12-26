@@ -56,9 +56,9 @@ const HeroSection = () => {
         />
         <h2 className="text-sm md:text-[18px] tracking-wider font-medium uppercase">It’s DoorDash for your weed</h2>
         <h1 className="text-xl md:text-2xl font-bold mt-4">The creators of Buzzhub have been hard at work to create a solution <br/> where all your weed needs can be met on one app</h1>
-        <p className="text-xl md:text-2xl mt-2 font-thin">No longer are you forced into an endless search for the best price, strain, or desired effects.</p>
+        <p className="text-xl md:text-2xl mt-2">No longer are you forced into an endless search for the best price, strain, or desired effects.</p>
 
-        <h1 className='text-xl mt-2'>Download the app today and in minutes see the line up of only the best dispensaries and cannabis products nearest you.</h1>
+        <h1 className='text-xl md:text-2xl mt-2'>Download the app today and in minutes see the line up of only the best dispensaries and cannabis products nearest you.</h1>
 
 
 
