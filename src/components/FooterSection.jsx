@@ -36,7 +36,7 @@ const Footer = () => {
                 
                 <div className="text-center md:text-left space-y-2 py-10">
                     <h3 className="text-lg font-semibold">Contact</h3>
-                    <p className="font-light text-gray-300">BUZZHUB LLC<br /> PO BOX 1433
+                    <p className="font-light text-gray-300">BUZZHUB LLC<br /> PO BOX 1433<br />
                     Waterville, Maine 04901</p>
                     <p className="font-light text-gray-300">207-620-0162</p>
                     <p className="font-light text-gray-300">buzzhub.app@gmail.com</p>
