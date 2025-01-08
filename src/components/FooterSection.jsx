@@ -36,11 +36,13 @@ const Footer = () => {
                 
                 <div className="text-center md:text-left space-y-2 py-10">
                     <h3 className="text-lg font-semibold">Contact</h3>
-                    <p className="font-light text-gray-300">5053 Kiehn Junctions, <br /> Corpus Christi 19197</p>
+                    <p className="font-light text-gray-300">BUZZHUB LLC<br /> PO BOX 1433
+                    Waterville, Maine 04901</p>
                     <p className="font-light text-gray-300">207-620-0162</p>
                     <p className="font-light text-gray-300">buzzhub.app@gmail.com</p>
                 </div>
                 
+
                 <div className="text-center md:text-left space-y-4 py-10">
                     <h3 className="text-lg font-semibold">Get Latest Information</h3>
                     <p>Subscribe now with your email</p>
