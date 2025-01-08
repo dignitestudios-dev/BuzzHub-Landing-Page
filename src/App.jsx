@@ -9,6 +9,7 @@ import DownloadSection from './components/DownloadSection';
 import FaqSection from './components/FaqSection';
 import FooterSection from "./components/FooterSection";
 import PrivacyPolicy from './components/PrivacyPolicy';
+import TermsandConditions from './components/TermsandConditions';
 
 function App() {
   return (
@@ -16,6 +17,8 @@ function App() {
       <Routes>
         {/* Add a route for the Privacy Policy */}
         <Route path="/privacy-policy" element={<PrivacyPolicy />} />
+        <Route path="/termsandconditions" element={<TermsandConditions />} />
+
 
         {/* Add other routes for your sections */}
         <Route path="/" element={
