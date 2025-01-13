@@ -135,6 +135,72 @@ const PrivacyPolicy = () => {
           All direct payment gateways comply with the standards set by PCI-DSS as managed by the PCI Security Standards Council.
         </p>
       </section>
+
+
+
+
+      <section className="mb-8">
+  <h2 className="text-2xl font-bold mb-4">Section 8 - Third-party services</h2>
+  <p className="text-lg mb-4">
+    Our Policy does not cover any third-party services. To learn about those third parties’ privacy practices, please read their privacy policies.
+  </p>
+  <p className="text-lg mb-4">
+    <strong>Links:</strong> When you click on links on our store, they may direct you away from our site. We are not responsible for the privacy practices of other sites and encourage you to read their privacy policies.
+  </p>
+</section>
+
+<section className="mb-8">
+  <h2 className="text-2xl font-bold mb-4">Section 9 - Security</h2>
+  <p className="text-lg mb-4">
+    To protect your personal information, we take reasonable precautions and follow generally accepted industry practices to make sure it is not inappropriately lost, misused, accessed, disclosed, altered, or destroyed. Your personal information is protected by your password – never share this password with anyone. BuzzHub Product Group, LLC will never contact you to ask you for your password.
+  </p>
+  <p className="text-lg mb-4">
+    If you provide us with your credit card information, the information is transmitted to our server using secure socket layer technology (SSL) which employs the AES-256 encryption standard.
+  </p>
+  <p className="text-lg mb-4">
+    Unfortunately, the transmission of information via the internet is not completely secure. Although we do our best to protect your personal information, we cannot guarantee the security of your personal information transmitted to our website. Any transmission of personal information is at your own risk. We are not responsible for the circumvention of any privacy settings or security measures contained on the website.
+  </p>
+</section>
+
+<section className="mb-8">
+  <h2 className="text-2xl font-bold mb-4">Section 10 - Age of consent</h2>
+  <p className="text-lg mb-4">
+    Our website is not intended for people under 21 years of age. No one under the age of 21 may provide information to or on the website. We do not knowingly collect personal information from people under the age of 21. If you are under 21, do not use or provide any information on this website, through any of its features, register on the website, make purchases on the website, or provide any information about yourself to us, including your name, address, telephone number, or email address.
+  </p>
+  <p className="text-lg mb-4">
+    By using this site, you represent that you are at least 21 years of age, or that you are the age of majority in your state or province of residence and you consent to any of your minor dependents using this site.
+  </p>
+</section>
+<section className="mb-8">
+  <h2 className="text-2xl font-bold mb-4">Section 11 - United States law applies</h2>
+  <p className="text-lg mb-4">
+    This site is intended for users located in the United States. By sending us your Personal Information from outside the U.S., you consent to the application of U.S. law and to the use and disclosure of your personal information consistent with this Privacy Policy. It is up to you to determine whether accessing this site and purchasing our products are legal where you are. You access this site and purchase our products at your own risk, and you are responsible for compliance with all applicable laws, rules, regulations, and treaties in the country where you reside, or where the products are destined.
+  </p>
+</section>
+
+<section className="mb-8">
+  <h2 className="text-2xl font-bold mb-4">Section 12 - Changes to this privacy policy</h2>
+  <p className="text-lg mb-4">
+    We reserve the right to modify this Privacy Policy at any time, so please review it frequently. It is our policy to post any changes we make to our Privacy Policy on this page (with a notice that the Privacy Policy has been updated on the website’s homepage). If we make material changes to how we treat our users’ personal information, we will notify you by email to the email address specified in your account and through a notice on our website’s home page.
+  </p>
+  <p className="text-lg mb-4">
+    You are responsible for ensuring we have an up-to-date active and deliverable email address for you, and for periodically visiting our website and this Privacy Policy to check for any changes. Changes and clarifications will take effect immediately upon their posting on the website.
+  </p>
+</section>
+
+<section className="mb-8">
+  <h2 className="text-2xl font-bold mb-4">Section 13 - Questions and contact information</h2>
+  <p className="text-lg mb-4">
+    If you would like to: access, correct, amend or delete any personal information we have about you (other than that information automatically generated by your use of our site), register a complaint, or simply want more information, please contact our customer service team at:
+  </p>
+  <ul className="list-disc pl-8 text-lg mb-4">
+    <li>Phone: 207-620-0162</li>
+    <li>Website: <a href="https://buzzhubapp.com" target="_blank" className="text-blue-500">buzzhubapp.com</a></li>
+    <li>Email: <a href="mailto:BuzzHub.app@gmail.com" className="text-blue-500">BuzzHub.app@gmail.com</a></li>
+  </ul>
+</section>
+
+
     </div>
     <Footer/>
     </>
