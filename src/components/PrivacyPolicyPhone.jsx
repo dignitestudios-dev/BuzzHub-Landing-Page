@@ -1,6 +1,6 @@
 import React from "react";
 
-const PrivacyPolicy = () => {
+const PrivacyPolicyPhone = () => {
   return (
     <>
       <GlobalNavbar />
@@ -449,4 +449,4 @@ const PrivacyPolicy = () => {
   );
 };
 
-export default PrivacyPolicy;
+export default PrivacyPolicyPhone;
