@@ -5,7 +5,7 @@ import Footer from './FooterSection';
 const TermsandConditions = () => {
   return (
     <>
-      <GlobalNavbar />
+      <GlobalNavbar classname="hidden lg:block"/>
       <div className="max-w-7xl mx-auto p-6 bg-white text-gray-800">
         <h1 className="text-3xl font-semibold text-left mb-6">User Terms and Conditions</h1>
         <p className="mb-6 text-lg text-left">
@@ -413,7 +413,7 @@ const TermsandConditions = () => {
 
 
       </div>
-      <Footer />
+      <Footer classname="lg:block hidden" />
     </>
   );
 };
