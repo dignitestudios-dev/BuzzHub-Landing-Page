@@ -3,7 +3,6 @@ import React from "react";
 const PrivacyPolicyPhone = () => {
   return (
     <>
-      <GlobalNavbar />
       <div className="max-w-7xl mx-auto p-6 bg-white text-gray-800">
         <h1 className="text-3xl font-semibold text-left mb-6">
           Privacy Policy
