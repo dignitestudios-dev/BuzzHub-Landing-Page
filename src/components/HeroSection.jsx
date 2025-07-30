@@ -66,7 +66,7 @@ const HeroSection = () => {
           <a href="#" className="flex items-center">
             <img src={playstore} alt="Get it on Google Play" className="h-14" />
           </a>
-          <a href="#" className="flex items-center">
+          <a href="https://apps.apple.com/us/app/buzzhub-user/id6739570527" className="flex items-center">
             <img src={appstore} alt="Download on the App Store" className="h-14" />
           </a>
         </div>
