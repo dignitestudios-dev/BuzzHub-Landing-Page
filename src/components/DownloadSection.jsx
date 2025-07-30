@@ -55,7 +55,7 @@ const DownloadSection = () => {
         {/* Flex container to ensure icons are always beside each other */}
         <div className="flex space-x-4"> {/* Flex container with horizontal space between icons */}
           <a
-            href="https://apps.apple.com/us/app/buzzhub-user/id6739570527"
+            href="#download"
             className="flex items-center justify-center py-2"
           >
             <img 
@@ -65,7 +65,7 @@ const DownloadSection = () => {
             />
           </a>
           <a
-            href="#download"
+            href="https://apps.apple.com/us/app/buzzhub-user/id6739570527"
             className="flex items-center justify-center py-2"
           >
             <img 
