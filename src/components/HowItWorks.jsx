@@ -1,5 +1,12 @@
 import React, { useState } from 'react';
-import { GreenleafImage, howitworksBg, howitWorks1, howitWorks2, howitWorks3, howitWorks4, icon1, icon1white, icon2, icon2white, icon3, icon3white, icon4, icon4white, icon5, icon5white, icon6, icon6white } from "../assets/export";
+import {
+  GreenleafImage, howitworksBg, howitWorks1, howitWorks2,
+  howitWorks3, howitWorks4, icon1, icon1white, icon2, icon2white,
+  icon3, icon3white, icon4, icon4white, icon5, icon5white, icon6, icon6white
+} from "../assets/export";
+
+import { MdOutlineArrowOutward } from "react-icons/md";
+
 
 const HowItWorks = () => {
   const [isCustomerApp, setIsCustomerApp] = useState(true);
@@ -10,70 +17,98 @@ const HowItWorks = () => {
 
   const stepsData = isCustomerApp
     ? [
-        { icon: icon1, iconWhite: icon1white, title: "Login/Signup", description: "Join Buzzhub easily with secure sign-up via email or social media!" },
-        { icon: icon3, iconWhite: icon3white, title: "Product Search", description: "Find cannabis products quickly with our intuitive search filters!" },
-        { icon: icon4, iconWhite: icon4white, title: "Product Ordering", description: "Order effortlessly with easy cart management and secure checkout!" },
-        { icon: icon2, iconWhite: icon2white, title: "Product Delivery", description: "Choose convenient delivery or pickup options tailored to you!" },
+        {
+          icon: icon1,
+          iconWhite: icon1white,
+          title: "Login/Signup",
+          description: "Join Buzzhub easily with secure sign-up via email or social media!",
+          link: "https://buzzhub-user.vercel.app",
+        },
+        {
+          icon: icon3,
+          iconWhite: icon3white,
+          title: "Product Search",
+          description: "Find cannabis products quickly with our intuitive search filters!"
+        },
+        {
+          icon: icon4,
+          iconWhite: icon4white,
+          title: "Product Ordering",
+          description: "Order effortlessly with easy cart management and secure checkout!"
+        },
+        {
+          icon: icon2,
+          iconWhite: icon2white,
+          title: "Product Delivery",
+          description: "Choose convenient delivery or pickup options tailored to you!"
+        }
       ]
     : [
-      { icon: icon1, iconWhite: icon1white, title: "Login/Signup", description: "Access your vendor account and manage your listings and orders." },
-        { icon: icon5, iconWhite: icon5white, title: "Get Order & Dispatch", description: " Receive and manage incoming orders, track order status, and dispatch orders." },
-        { icon: icon6, iconWhite: icon6white, title: "Manage Orders", description: "Complete your dispensary profile to provide buyers with information about your business" },
-        { icon: icon2, iconWhite: icon2white, title: "Add Product Listing", description: " Create detailed product listings with images, descriptions, prices, and availability." },
-
+        {
+          icon: icon1,
+          iconWhite: icon1white,
+          title: "Login/Signup",
+          description: "Access your vendor account and manage your listings and orders.",
+          link: "https://dispensary-buzzhub.vercel.app",
+        },
+        {
+          icon: icon5,
+          iconWhite: icon5white,
+          title: "Get Order & Dispatch",
+          description: "Receive and manage incoming orders, track order status, and dispatch orders."
+        },
+        {
+          icon: icon6,
+          iconWhite: icon6white,
+          title: "Manage Orders",
+          description: "Complete your dispensary profile to provide buyers with information about your business"
+        },
+        {
+          icon: icon2,
+          iconWhite: icon2white,
+          title: "Add Product Listing",
+          description: "Create detailed product listings with images, descriptions, prices, and availability."
+        }
       ];
 
   return (
     <section className="py-20 bg-white p-8" id="howItWorks">
       <style>
-  {`
-    @keyframes bounceDown {
-      0%, 100% {
-        transform: translateY(0) rotate(-6deg);
-      }
-      40% {
-        transform: translateY(-30px) rotate(-6deg);
-      }
-      60% {
-        transform: translateY(-15px) rotate(-6deg);
-      }
-    }
-    @keyframes bounceUp {
-      0%, 100% {
-        transform: translateY(0) rotate(6deg);
-      }
-      40% {
-        transform: translateY(30px) rotate(6deg);
-      }
-      60% {
-        transform: translateY(15px) rotate(6deg);
-      }
-    }
-    .bounce-down {
-      animation: bounceDown 4.5s ease-in-out infinite; /* Slowed down */
-    }
-    .bounce-up {
-      animation: bounceUp 4.5s ease-in-out infinite; /* Slowed down */
-    }
-  `}
-</style>
-
+        {`
+          @keyframes bounceDown {
+            0%, 100% { transform: translateY(0) rotate(-6deg); }
+            40% { transform: translateY(-30px) rotate(-6deg); }
+            60% { transform: translateY(-15px) rotate(-6deg); }
+          }
+          @keyframes bounceUp {
+            0%, 100% { transform: translateY(0) rotate(6deg); }
+            40% { transform: translateY(30px) rotate(6deg); }
+            60% { transform: translateY(15px) rotate(6deg); }
+          }
+          .bounce-down {
+            animation: bounceDown 4.5s ease-in-out infinite;
+          }
+          .bounce-up {
+            animation: bounceUp 4.5s ease-in-out infinite;
+          }
+        `}
+      </style>
 
       <img src={GreenleafImage} alt="Green Leaf Decoration" className="w-14 h-14 mx-auto mb-2" />
       <div className="mb-12 text-center">
         <p className="text-green-600 font-medium text-[22px]">How It Works</p>
         <h2 className="text-2xl md:text-[42px] font-semibold mt-2">How Does This App Work</h2>
-        <p className="text-gray-600 mt-4 max-w-2xl mx-auto text-sm md:text-medium md:text-[16px]">
-        Effortlessly explore dispensaries, compare products, and place secure orders. Whether you're a customer or a vendor, Buzzhub streamlines the process for all your cannabis needs.
+        <p className="text-gray-600 mt-4 max-w-2xl mx-auto text-sm md:text-[16px]">
+          Effortlessly explore dispensaries, compare products, and place secure orders. Whether you're a customer or a vendor, Buzzhub streamlines the process for all your cannabis needs.
         </p>
       </div>
 
       <div className="flex flex-col md:flex-row justify-center mb-6">
         <div className="bg-[#F7F7F7] w-full max-w-[386px] h-[70px] rounded-full p-2 flex items-center">
-          <button onClick={() => handleAppToggle(true)} className={`flex-1 h-[50px] rounded-full font-normal text-sm  md:text-[18px] md:text-normal ${isCustomerApp ? 'bg-[#1D7C42] text-white' : 'text-gray-700'}`}>
+          <button onClick={() => handleAppToggle(true)} className={`flex-1 h-[50px] rounded-full font-normal text-sm md:text-[18px] ${isCustomerApp ? 'bg-[#1D7C42] text-white' : 'text-gray-700'}`}>
             Customer App
           </button>
-          <button onClick={() => handleAppToggle(false)} className={`flex-1 h-[50px] rounded-full font-normal text-sm md:text-[18px] md:text-normal ${!isCustomerApp ? 'bg-[#1D7C42] text-white' : 'text-gray-700'}`}>
+          <button onClick={() => handleAppToggle(false)} className={`flex-1 h-[50px] rounded-full font-normal text-sm md:text-[18px] ${!isCustomerApp ? 'bg-[#1D7C42] text-white' : 'text-gray-700'}`}>
             Vendor App
           </button>
         </div>
@@ -101,9 +136,16 @@ const HowItWorks = () => {
         </div>
 
         <div className="md:w-1/2 md:ml-[-40px]">
-          <div className="grid grid-cols-1 sm:grid-cols-2 gap-4"> 
+          <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
             {stepsData.map((step, index) => (
-              <Step key={index} icon={step.icon} iconWhite={step.iconWhite} title={step.title} description={step.description} />
+              <Step
+                key={index}
+                icon={step.icon}
+                iconWhite={step.iconWhite}
+                title={step.title}
+                description={step.description}
+                link={step.link}
+              />
             ))}
           </div>
         </div>
@@ -112,22 +154,33 @@ const HowItWorks = () => {
   );
 };
 
-const Step = ({ icon, iconWhite, title, description }) => {
+const Step = ({ icon, iconWhite, title, description, link }) => {
   const [isHovered, setIsHovered] = useState(false);
 
   return (
     <div className="flex flex-col items-start text-center md:text-left">
-      <div 
+      <div
         className={`flex items-center justify-center w-[70px] h-[70px] rounded-lg ${isHovered ? 'bg-[#1D7C42]' : 'bg-[#E6F4EC]'} transition-all duration-300`}
         onMouseEnter={() => setIsHovered(true)}
         onMouseLeave={() => setIsHovered(false)}
-      > 
+      >
         <img src={isHovered ? iconWhite : icon} alt={title} className="w-16 h-16 p-2" />
       </div>
       <h3 className="text-lg font-semibold mt-2">{title}</h3>
-      <p className="text-gray-600 text-left text text-sm md:text-base mb-6">{description}</p>
+      <p className="text-gray-600 text-left text-sm md:text-base ">{description}</p>
+      {link && (
+        <a
+          href={link}
+          target="_blank"
+          rel="noopener noreferrer"
+          className="text-green-600 text-sm hover:underline inline-flex items-center"
+        >
+          Visit buzzhub <MdOutlineArrowOutward className="w-4 h-4" />
+        </a>
+      )}
     </div>
   );
 };
 
 export default HowItWorks;
+  
