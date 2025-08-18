@@ -412,6 +412,14 @@ const TermsandConditions = () => {
 </div>
 
 
+<div className="mb-6">
+  <h2 className="text-2xl font-bold mb-4">Prohibited Activities:</h2>
+<p className="text-lg mb-6">
+BuzzHub does not facilitate, promote, or process any transactions involving illegal, controlled, or regulated substances, including cannabis, in jurisdictions where such activities are prohibited by law. All product-related information within the BuzzHub application is provided strictly for informational purposes. Any purchases, sales, or transactions for such products are conducted entirely outside the BuzzHub application, through third-party websites or platforms, and are not processed, managed, or endorsed by BuzzHub. Users are solely responsible for ensuring that any activities they engage in comply with all applicable laws and regulations in their jurisdiction.
+</p>
+</div>
+
+
       </div>
       <Footer/>
     </>
