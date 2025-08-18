@@ -189,12 +189,6 @@ const PrivacyPolicy = () => {
 </section>
 
 
-<section className="mb-8">
-  <h2 className="text-2xl font-bold mb-4">Compliance with Laws:</h2>
-  <p className="text-lg mb-4">
-BuzzHub does not collect, process, or store any payment or transactional information related to the sale or purchase of illegal, controlled, or regulated substances, including cannabis, in jurisdictions where such activities are prohibited by law. Any product-related content in the BuzzHub application is provided for informational purposes only. If users choose to proceed to third-party websites or platforms via external links, those interactions are outside of BuzzHub’s control, and BuzzHub bears no responsibility for such transactions. Users must ensure compliance with all applicable local laws before engaging in any such activities.
-  </p>
-</section>
 
 <section className="mb-8">
   <h2 className="text-2xl font-bold mb-4">Section 13 - Questions and contact information</h2>
@@ -206,6 +200,14 @@ BuzzHub does not collect, process, or store any payment or transactional informa
     <li>Website: <a href="https://buzzhubapp.com" target="_blank" className="text-blue-500">buzzhubapp.com</a></li>
     <li>Email: <a href="mailto:BuzzHub.app@gmail.com" className="text-blue-500">BuzzHub.app@gmail.com</a></li>
   </ul>
+</section>
+
+
+<section className="mb-8">
+  <h2 className="text-2xl font-bold mb-4">Compliance with Laws:</h2>
+  <p className="text-lg mb-4">
+BuzzHub does not collect, process, or store any payment or transactional information related to the sale or purchase of illegal, controlled, or regulated substances, including cannabis, in jurisdictions where such activities are prohibited by law. Any product-related content in the BuzzHub application is provided for informational purposes only. If users choose to proceed to third-party websites or platforms via external links, those interactions are outside of BuzzHub’s control, and BuzzHub bears no responsibility for such transactions. Users must ensure compliance with all applicable local laws before engaging in any such activities.
+  </p>
 </section>
 
 
