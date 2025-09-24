@@ -14,6 +14,8 @@ const FaqSection = () => {
     { question: 'Is Buzzhub legal?', answer: 'Yes, Buzzhub operates within the legal framework of your region. We adhere to all applicable laws and regulations.' },
     { question: 'How secure is Buzzhub?', answer: 'We take your privacy and security seriously. We use state-of-the-art encryption to protect your personal information and payment details.' },
     { question: 'Can I track my order?', answer: 'Yes, you can track your order status in real-time through the Buzzhub app.' },
+    { question: 'Can I order product from a different state outside of the state I reside in?', answer: 'Yes, you can. You will simply need to change your address in your profile to the same state your dispensary is located. Even if you have a different medical marijuana card from another state, you are allowed to purchase medicinal marijuana in all 50 states.' },
+
   ];
 
   const toggleFAQ = (index) => {
