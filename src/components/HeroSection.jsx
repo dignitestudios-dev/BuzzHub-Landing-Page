@@ -63,7 +63,7 @@ const HeroSection = () => {
 
 
         <div className="flex justify-center space-x-4 mt-8">
-          <a href="#" className="flex items-center">
+          <a href="https://play.google.com/store/apps/details?id=com.dignitestudios.buzzhub_discovery" className="flex items-center">
             <img src={playstore} alt="Get it on Google Play" className="h-14" />
           </a>
           <a href="https://apps.apple.com/us/app/buzzhub-user/id6739570527" className="flex items-center">
