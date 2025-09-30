@@ -39,7 +39,7 @@ const Footer = () => {
                     <p className="font-light text-gray-300">BUZZHUB LLC<br /> PO BOX 1433<br />
                     Waterville, Maine 04901</p>
                     <p className="font-light text-gray-300">207-620-0162</p>
-                    <p className="font-light text-gray-300">buzzhub.app@gmail.com</p>
+                    <p className="font-light text-gray-300">info.buzzhubapp@gmail.com | sales.buzzhub@gmail.com </p>
                 </div>
                 
 
