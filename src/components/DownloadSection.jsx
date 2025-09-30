@@ -55,7 +55,7 @@ const DownloadSection = () => {
         {/* Flex container to ensure icons are always beside each other */}
         <div className="flex space-x-4"> {/* Flex container with horizontal space between icons */}
           <a
-            href="#download"
+            href="https://play.google.com/store/apps/details?id=com.dignitestudios.buzzhub_discovery"
             className="flex items-center justify-center py-2"
           >
             <img 
